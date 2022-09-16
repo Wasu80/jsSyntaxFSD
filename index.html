@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Challenge 1
+
+        var num1 = 50;  // Global variable declaration
+        function a(){
+            document.write("Global variable => ");
+            document.write(num1);
+        }
+
+        function b(){
+            var num2 = 100;    // Local variable declaration
+            document.write("<br>")
+            document.write("Local variable => ");
+            document.write(num2);
+        }
+
+        a();    //  Calling JavaScript Function
+        b();
+
+        // challenge 2
+
+        // Using template literal
+        console.log(`Menu Items 
+        Sandwich 
+        French Fries 
+        Potato 
+        wedges 
+        Donuts 
+        Pizza`);
+    
+    </script>
+</body>
+</html>
